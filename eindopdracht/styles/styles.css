@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+
+.hide {
+    display: none !important;
+}
+
+.active {
+    background-color: red;
+}
+
+body {
+    position: relative;
+}
+
+body, textarea {
+    font-family: sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.news18.com/ibnlive/uploads/2021/06/1622880036_environment-day-ecosystem.jpg?im=Resize,width=360,aspect=fit,type=normal?im=Resize,width=320,aspect=fit,type=normal');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* feedback */
+
+#feedback {
+    position: absolute;
+    top: 2em;
+    text-align: center;
+}
+
+#feedback p {
+    font-size: 1.5em;
+}
+
+/* word */
+
+.word {
+    width: 100vw;
+    height: 100vh;
+}
+
+.word div:first-of-type {
+    height: 5%;
+    width: 100%;
+    background-color: blue;
+}
+
+.word div:nth-of-type(2) {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    border-bottom: 1px solid grey;
+}
+
+.word div:nth-of-type(3) {
+    height: 75%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.word div:nth-of-type(3) textarea {
+    width: 25em;
+    padding: 5em;
+    height: 70%;
+}
+
+.word div:nth-of-type(4) {
+    height: 3%;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+
+    border-top: 1px solid grey;
+}
+
+/* files */
+
+.files {
+    position: absolute;
+    
+    width: 30em;
+    height: 70vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border: solid grey 1px;
+    background-color: white;
+}
+
+.files div:first-of-type {
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+}
+
+.files div:nth-of-type(2) {
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.files div:nth-of-type(3) {
+    width: 30%;
+    height: 80%;
+    border-right: 1px grey solid;
+}
+
+.files > section {
+    width:69.5%;
+    height: 80%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.files > section > ul {
+    height: 100%;
+    scroll-snap-align: start;
+}
+
+.files > section > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.files > section > ul > li > img {
+    width: 2em;
+}
+
+/* chrome */
+
+.chrome {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 2em;
+}
+
+.chrome ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40em;
+}
+
+.chrome h2 {
+    position: absolute;
+    left: -2em;
+}
+.chrome li {
+    display: flex;
+    align-items: center;
+}
+/* buttons */
+
+.menu {
+    display: flex;
+    gap: 3em;
+    position: absolute;
+    right: 2em;
+    top: 5%;
+    padding: .5em;
+    background-color: green;
+    border-radius: 1em;
+}
+
+.menu button {
+    cursor: pointer;
+    padding: .5em;
+    background: none;
+    border: none;
+}
+.menu img {
+    height: 3em;
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color:rgb(229, 229, 229);
+
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+}
+
+footer img {
+    width: 2.5em;
+}
+

@@ -1,139 +1,198 @@
-# Human Centered Design @cmda-minor-web 2022 - 2023
+# Scroll, Knip & Plak
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen.
+<img width="1438" alt="Scherm­afbeelding 2023-05-11 om 23 53 30" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/7b54da48-95d2-49c7-8ddb-433cecdfc0e1">
 
-> What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
+## Onderzoeksvraag
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. 
-Een Frontender heeft verstand van interactie, vormgeving én techniek. 
-Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
-        
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. 
-Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? 
-Wat voor principes heb je gebruikt en getest? En is het leuk?
+Ontwerp een manier om met spraak en tekentablet tekst te navigeren, selecteren, te knippen en te plakken die past bij Nicollete Besemer. 
 
-## Opdracht
+## Probleem
 
-### Ontwerpen met en voor echte mensen
+Nicolette kan beperkt gebruik maken van haar ledematen, hierdoor kan zij geen muis gebruiken en zijn toetsenbord commando's bijna niet te doen. Om gebruik te maken van een computer gebruikt ze een toetsenbord, een tekentablet en spraaksoftware. Hierdoor wordt het voor haar beter, maar ervaart ze hier nog steeds problemen. Zo is scrollen haar grootste pijnpunt. 
 
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. 
-Een echt mens. 
-Je moet je ontwerp elke week testen. 
-Door te testen en te itereren ga je je ontwerp verbeteren. 
-Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. 
-Een _exclusive design_ ... 
-Wie is deze persoon dan voor wie je dit gaat maken? 
-Wat vindt deze persoon leuk of juist niet? 
-Hoe bedient deze persoon een computer?
+## Oplossing
 
-- [Opdracht - Ontwerpen met en voor echte mensen](course/opdracht-human-centered-design.md)
+Ik heb geprobeerd om haar omgeving na te bouwen en handige features aan toe te voegen. Ik heb een menu gemaakt waarmee ze door middel van knoppen commando's kan doen. Ik heb een knop waarmee ze kan knippen, plakken en kopieren met spraakondersteuning. Ook heb ik een manier waarmee ze handig door haar bestanden kan navigeren. Heb ik een manier gevonden waardoor ze deze commando's met haar tablet kan gebruiken door gebruik van fysieke knoppen.
 
-### Leerdoelen
+## Link naar het protoype
 
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
+[Link](https://dennishva.github.io/human-centered-design-2223/eindopdracht/)
 
-[Rubric](#rubric)
+# Inhoudsopgave
 
-## Planning & programma
+## User Scenario
 
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1---kickoff-en-aannames-testen)  | Intro & College Exclusive design | College + Testen | Feedbackgesprekken |
-| [Week 2](#week-2---prototypen-en-testen)  | College + Testen | ~~Koningsdag~~  | ~~Vrij~~  | 
-| ~~Meivakantie~~ |   |  |   |
-| [Week 3](#week-3---prototypen-presenteren-en-reflecteren)  | College  |  Onderzoeken presenteren | Beoordelingsgesprekken  |
+Nicolette kan beperkt gebruik maken van haar ledematen, zo gebruikt ze een rolstoel om zich te verplaatsen. Nicolette houdt zich veel bezig met toegankelijkheid. Daarnaast organiseerd ze veel voor de buurt en voor andere vrijwilligers. Ze is geoloog van beroep geweest en bezoekt graag natuurkundige wonderen. Ook is ze gepassioneerd door de natuur. Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website van de gemeente. 
 
+Om gebruik te maken van een computer gebruikt ze een toetsenbord, een tekentablet en spraaksoftware. Het toetsenbord gebruikt ze enkel alleen om wachtwoorden in te vullen. De tekentablet gebruikt als navigatie. Ze opent hiervoor bijvoorbeeld mapjes mee of gaat een pagina terug. Voor haar tablet heeft ze ook persoonlijke instellingen. Zo hoeft ze maar 1 keer te klikken in plaats van dubbel klikken. Voor de rest doet ze alles met spraaksoftware.
 
-## Week 1 - Intro en aannames testen 
+Haar wens is om het navigeren makkelijker te maken. Als ze in haar map met bestanden moet navigeren vind ze dit erg lastig. Scrollen is voor haar het grootste pijnpunt. Ook andere handelingen waarmee ze moet swipen en slepen zijn voor haar niet ideaal. Precisie is erg lastig. Daarnast zou ze het geweldig vinden als er iets wordt gemaakt waardoor ze makkelijk teksten kan kopieren en plakken. Commando's zoals control + c zijn voor haar niet doen, en zou ze graag een oplossing voor willen. Dit zou ze graag willen omdat ze met haar werk veel bezig is met teksten.
 
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag en donderdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Zorg dat je al een kleine interactieve demo maakt om te testen.
+Nicolette zou blij zijn als het navigeren haar makkelijker wordt gemaakt en dat er een goede manier is waardoor ze teksten kan bewerken en haar werk doen.
 
-### Woensdag 19 april
+Ik heb geprobeerd om al haar wensen aan te pakken en een oplossing te bedenken die bij haar past. Ik heb een manier waarmee je met een knop, een fysieke knop of met spraakbesturing tekst kan kopieren. Een knop en fysieke knop om teksten te plakken en een fysieke knop om te scrollen. Hierdoor haal ik haar grootste frustraties weg en haar wensen te vervullen!
 
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Eric gaat vertellen over _Exclusive Design_.
+## Exclusive Design Principles
 
-Daarna prototypen.
+### Study Situation
 
-### Donderdag 20 april
+Ik heb dit principe toegepast door de tests die ik heb kunnen doen. Hierdoor heb ik Nicolette leren kennen en gaat situatie begrepen. Voordat ik Nicolette heb leren en de case las wist ik niet goed hoe ik dit moest aanpakken. Dit is ook terug te lezen in het eerste testverslag waar ik mijn protoype uitleg en de vragen die ik had. Door de tests heb ik echt in kunnen leven in wie zij is, hoe ze te werkt gaat, wat haar pijnpunten zijn en wat haar wensen zijn. Helemaal doordat ik zelf een tekentablet heb, heb ik mij erg goed kunnen inleven en haar situatie begrepen. Dit is ook terug te zien in mijn eindproduct/presentatie waar een oplossing laat zien met de fysieke knoppen op haar tablet. Door erachter te komen wat er mogelijk is met de tekentablet heb ik geprobeerd om tot een zo goed mogelijk idee te komen. 
 
-Donderdag krijg je een college over testen. Ook gaan we deze les het artikel [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/flipping-things/) bespreken.
+### Ignore Conventions
 
-Daarna prototypen en testen.
+Ik heb geprobeerd zoveel mogelijk oplossingen bedacht die zij zou kunnen herkennen. Zo heb ik bijvoorbeeld in de eerste test haar een document laten kopieren en plakken. Dit heb ik opgenomen en later nog eens teruggekeken en hier kwam ik iets opvallends tegen. Als ze iets wilde kopieren noemde zei ze steeds "het schaartje". Dit zei ze zo vaak dat als ik een kopieer functie maak dat deze ook in deze vorm zou moeten. Zelf zou ik hier iets anders bij bedenken, maar voor haar werkt dit dus moet ik dit doen. Deze functie gebruikt ze ook in haar mappen en is een soort patroon, dus dit zou fijn zijn als dit hetzelfde blijft voor meer consistentie. 
 
-### Vrijdag 21 april
+### Prioritise Identity
 
-Feedbackgesprekken in groepen.
+Inclusief ontwerp legt vaak de nadruk op het prioriteren van inhoud en essentiële taken, maar als je exclusief voor een individu ontwerpt, is het belangrijk om prioriteit te geven aan hun identiteit. Nicolette gaf aan tog wel gebruik te willen maken van de tekentablet dus was hier ook mijn focus. Ik heb zoveel mogelijk gekeken hoe ik het haar zo makkelijk mogelijk kon maken. Wat ook voorbij kwam was het scrollen. De opdracht ging eigenlijk over knippen en plakken, maar dit was echt iets wat haar irriteerde. Dit was niet de opdracht, maar wel iets waar iets mee wilde. Dit is een persoonlijke behoefte waar ik naar gekeken heb. 
 
+### Add nonsense
 
-## Week 2 - Prototypen en testen 
+Hier was ik geinspireerd door de testen waardoor ik haar situatie steeds meer begon te begrijpen en iets begon voor te stellen. Door de verschillende termen die ze gebruikte begin ik mij echt een voorstellen te maken hoe het er bij haar uit zou zien. Ik dacht ik giet de taken in een soort computer vorm met een achtergrond van hoe ik denk dat haar bureaublad eruit zou zien als ecoloog. Het is niet nodig, maar wel wel heel leuk in haar context. 
 
-Deze week heb je het tweede gesprek met je testpersoon. Wat ga je testen? Wat wil je weten? Donderdag is het koningsdag, dan is er geen les.
+# Conclusie reflectie eerdoelen
 
-### Woensdag 26 april
+## Testen
 
-Donderdag krijg je een college over testen. 
-Lees voor deze les de artikelen:  
-[10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) 
-en [Design for Both Needs and Wants: Applying Anderson’s User Experience Hierarchy of Needs](https://thevisualcommunicationguy.com/2018/11/08/design-for-both-needs-and-wants-applying-andersons-user-experience-hierarchy-of-needs/) lezen.
+<img width="1429" alt="Scherm­afbeelding 2023-05-12 om 00 13 38" src="https://github.com/DennisHvA/real-time-web-2223/assets/94405795/9a64b8ec-7768-4695-94ab-a2e0b623c9d2">
 
-'s Middags ga je voor de tweede keer testen.
+## Test 1
 
+### Case informatie
 
+#### Nicolette Besemer
 
-## Week 3 - Prototypen, presenteren en reflecteren
+Nicolette kan beperkt gebruik maken van haar ledematen. Ze gebruikt een rolstoel om zich te verplaatsen, en op haar computer maakt ze gebruik van spraaksoftware en een tekentablet in plaats van een muis. Dit maakt navigeren lastig omdat ze geen snelkoppelingen kan gebruiken. Nicolette houdt zich veel bezig met toegankelijkheid. Daarnaast organiseerd ze veel voor de buurt en voor andere vrijwilligers. Ze is geoloog van beroep geweest en bezoekt graag natuurkundige wonderen. Ook is ze gepassioneerd door de natuur.
 
-In week 3 gaan we alle onderzoeken presenteren en publiceren. Eind van de week zijn de beoordelingsgesprekken. 
+#### Knippen en plakken zonder klikken
 
-### Woensdag 10 mei
+Voor haar werk leest en deelt Nicolette veel stukken tekst op o.a. de website van de gemeente. Het is belangrijk om hier de juiste stukken uit te kunnen halen en door te kunnen sturen. Zonder rechtermuisknop of snelkoppeling is knippen en plakken bijna niet mogelijk. Ontwerp een manier om met spraak en tekentablet tekst te navigeren, selecteren, te knippen en te plakken.
 
-Woensdag beginnen we met een college. 
-Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/) 
+### Vragen
 
-Daarna verder werken aan je prototype.
+- Wat is het probleem? (handicap)
 
-### Donderdag 11 mei
+Het is nog niet duidelijk wat het probleem is. Er zijn nog veel vragen onbeantwoord. Ik weet nog niet hoe haar situatie is dus dan is het lastig pom mij er iets bij voor te stellen. 
 
-Donderdag gaan we de onderzoeken presenteren en gaan we een site maken om al jullie onderzoeksbevindingen te publiceren. 
+- Hoe resulteerd het probleem in het gebruikt van een computer? 
 
+Welke dingen kunnen hierdoor niet. Wat zijn de beperkingen die ze tegenkomt. Kan ze sommige dingen niet doen, of misschien met veel meer moeite. Uit de tekst kan ik halen dat ze geen snelkoppelingen kan gebruiken. Wat zijn de snelkoppelingen? En waarom lukt dit niet? En dit zou resulteren dat navigeren lastig wordt. Waarom? en is dit precies door de snelkoppelingen?
 
-### Vrijdag 12 mei
+- Hoe gebruikt ze een computer?
 
-Op vrijdag zijn de beoordelingsgesprekken. Je hebt dan een gesprek waarin we je vorderingen en bevindingen bespreekt. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
+Hoe lost ze dit op. Hoe gaat ze ermee om. Uit de tekst maak ik op dat omdat ze geen muis gebruikt, hiervoor maak ze gebruik van een tekentablet en spraaksoftware. Hoe bediend ze de computer en welke mogelijkheden heeft ze. Hoe ziet de tekentablet eruit. Want ik heb er zelf een en hiermee kan ik wel alle acties doen. waarom kan zij dit niet. Ik vraag mij vooral af waarom ze geen muis gebruikt en wel een tekentablet 
 
+- Wat is de vraag? 
 
+Waar zou ze graag een oplossing voor zien? Uit de tekst maak ik op dat ze doormiddel van spraak en de tekentablet wil navigeren, selecteren, knippen en plakken. Waarvoor wil ze specifiek deze acties doen. Hoe gaat dit gebruikt worden.
 
-## Rubric
+### Concept 
 
-De opdracht wordt beoordeeld aan de hand van onderstaande rubric. Je moet slagen voor het criterium (middenkolom) om het vak te halen. 
+#### Eerste ideeen 
 
-| Ontoereikend  | Criteria  |  Verbetering |
-|---|---|---|
-|  | Readme - In de beschrijving van het project staat de opdracht uitgelegd, is het probleem duidelijk beschreven en hoe het probleem is opgelost. | | 
-|  | Design Principles - Student laat zien hoe de Exclusive Design Principles zijn toegepast in het ontwerp. De principes study situation, prioritise identity, ignore conventions en add nonsense zijn goed uitgelegd. Aan de hand van de principes wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp. | | 
-|  | User Needs - Er is een user scenario geschreven dat aansluit bij de identiteit van de test persoon. Er is een duidelijk en volledig user scenario geschreven dat antwoord geeft op de 4 w-vragen: Who? What? How? en Why? | | 
-|  | Testen - Er is elke week getest. Er is een verslaglegging van de tests gedaan waarin de test-opzet wordt behandeld en er is een duidelijke conclusie beschreven met do's en dont's over hoe je goed kan testen. | | 
-|  | Testresultaten - Aan de hand van de tests wordt duidelijk gemaakt hoe deze hebben bijgedragen aan het verbeteren van het ontwerp of hoe dit een volgende keer beter of anders kan. | | 
+- Een browser extensie voor commando's
+- Gebruik maken van de spraak api
+- Buttons voor plakken en knippen
 
+#### Prototype
 
+Ik vond het heel lastig om een voorstelling te maken van haar situatie. Het duurde ook lang om een eerste idee te bedenken. Uiteindelijk was mijn een om een demo te gaan maken. Ik heb een basissite gemaakt met een standaard tekst, een inputveld en 2 buttons om te kopieren en plakken. Het idee is dat ik hiermee kan gaan testen hoe ze normaal gezien zou kopieren en plakken. Ook heb ik al een eerste oplossing gemaakt, door gebruik te maken 
 
+[Link](https://dennishva.github.io/human-centered-design-2223/prototype1/)
 
+#### Concept
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
+### Testen
 
-<!-- ☝️ replace this description with a description of your own work -->
+#### Verloop
 
-<!-- replace the code in the /docs folder with your own, so you can showcase your work with GitHub Pages 🌍 -->
+De test begon door eerst kennis te maken. Langzamerhand gingen we steeds specifieker vragen stellen over het concept/probleem. In het begin hebben we vooral vragen gesteld en daarna hebben we prototypes getest. Dit hebben we gefilmd en het geluid van de hele test is opgenomen. 
 
-<!-- Add a nice poster image here at the end of the week, showing off your shiny frontend 📸 -->
+Omdat ze aangaf dat een groot deel van het probleem in de documents folder afspeelde leek het mij een goed idee om in the moment een demo te verzinnen. Het idee was haar zelf een een word bestand te laten kopieren en plakken op de juiste plek. En ook leek het mij een goed idee om haar tekst in een word document te laten laten kopieren en plakken. Hierdoor heb ik aardig wat nuttige pijnpunten ondekt.
 
-<!-- Maybe a table of contents here? 📚 -->
+#### Aantekeningen
 
-<!-- How about a section that describes how to install this project? 🤓 -->
+geoloog
+kan niet voelen met armen en benen
+met moeite navigeren met een tablet
+sites als geoloog, 45 mei, klimaatverandering, kranten
+gebruikt de tekentablet als muis
+wacom
 
-<!-- ...but how does one use this project? What are its features 🤔 -->
+tekst in documenten
+zoveel mogelijk met tablet
+typen gaat met spraak
+versturen met vingers
+per dag verschillende handelingen
+scrollen gaat moeilijk
 
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
+bestanden kopieren plakken en teksten daarbij
+niet in het openbaar
+acer
+niet handig met computers
 
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+kan wel een woord highlighten maar geen zinnen
+alleen klikken
+
+#### Conclusies
+
+- De context is niet de browser, maar in haar bestandsmappen
+- Ze werkt locaal
+- Ze wil bestanden kopieren en plakken, teksten komen op de 2e plaats
+- Ze leest en deelt veel teksten voor haar werk
+- Ze gebruikt "het schaartje"
+- Ze wil zoveel mogelijk de tablet gebruiken
+- Typen gaat met spraak
+- Scrollen is een groot pijnpunt en eigenlijk geen optie
+- Naar mijn idee niet handig met computers
+- Alleen klikken als handeling is wenselijk
+- Heeft dubbelklik aanstaan
+- Ze kan 1 woord highlighten 
+
+## Test 2
+
+### Concept 
+
+#### Ideeen
+
+- Scrollen zonder een muisscroll of tablet drag
+- Kopieren en plakken met spraak
+
+#### Prototype
+
+Het bleek vorige week dat het prototype niet helemaal aansluit bij het probleem. Het probleem wat beschreven stond was in de praktijk niet het grootste pijnpunt. Het ging niet in eerste instantie over teksten kopieren en plakken, maar over scrollen en kopieren en plakken van bestanden.
+
+Vorige week had ik iets gemaakt wat zich op het kopieren van plakken van teksten had gefocust. Nu heb ik nagedacht over het scroll probleem en gekeken naar spraak besturing.
+
+In de vorige test gaf ze aan dat ze een toetsenbord had liggen die ze ook gebruikt voor wachtwoorden. Daarom leek het mij een handige manier om hiermee te scrollen. Omdat het gebruik van een tekentablet om mee te scrollen niet fijn werkt. Ze heeft heel veel moeite met scrollen met een pen (slepen naar beneden en boven). En ze vind het ook lastig om precies op buttons te klikken. Dus als ze steeds zou moeten klikken om naar beneden te gaan is dat een heel gedoe. Ook heb ik naar gekeken naar spraakbesturing. Het idee was om op een button te klikken waardoor spraak wordt geactiveerd, en hiermee een begin en eindpunt inspreekt en hij pakt dan beiden punten en alles ertussenin en zet dit in je klembord. Zo hoef je niet niet hele zinnen in te spreken om te kopieren, en kan je specifiek kopieren door een uniek start en eind aan te geven. Helaas is het spraakgedeelte nog niet helemaal gelukt. Dit is best wel buiten mijn kennis, want ik ben nog niet heel goed met javascript en ik heb hiervoor 2 api's nodig.
+
+[Link](https://dennishva.github.io/human-centered-design-2223/prototype2/)
+
+### Test
+
+#### Verloop
+
+Tijdens het test moment hebben we allemaal ons eigen protoype getest. Ik heb wat ik gemaakt had getest, het spraak gedeelte uitgelegd wat het plan was als het zou werken en nog enkele vragen gesteld. 
+
+#### Aantekeningen
+
+- Kopieren en plakken met buttons werkt.
+- Liever spraak dan tekentablet. Dit is betrouwbaarder
+- Scrollen/snap met toetsenbord vind ze top
+- Toetsenbord binnen handbereik
+- Ze wil weten waar ze is
+- Specisie met de tablet is erg lastig. 
+
+#### Conclusie
+
+Het kopieren en plakken met buttons is duidelijk, maar spraakondersteuning is eigenlijk beter en meer wenselijk. Het scrollen met het toetsenbord is een goede manier omdat ze nu niet de tablet hoeft te gebruiken. Wat mij ookviel bij mijn test en anderen is dat ze graag wil weten wat er gebeurd en waar ze is. 
+
+## Conclusie / Reflectie
+
+Ik denk dat uiteindelijk het project erg goed verlopen is. Ik denk echt dat iets iets heb bedacht dat goed zou kunnen helpen. Ook vond ik het interessant om frontend met ux samen te doen. 
+
+De principes heb ik mijn ogen goed toegepast doordat ik door de tests echt het meeste te weten ben gekomen. Ik heb best veel goede informatie gekregen waardoor ik een passend prototype aan de hand van de principes heb kunnen maken. Vooral het principe Study Situation. Ik heb het idee dat ik goed haar context begrijp en hierdoor iets heb kunnen maken.
+
+Ik denk dat ik een goed beeld heb van Nicolette, haar situatie en waar haar problemen liggen. Ik heb geprobeerd goed te luisteren naar wat ze zegt en erachter te komen waar de pijnputen zodat ik iets kon verzinnen. 
+
+Het testen vond ik in het begin nog wel lastig. Normaal is dit niet echt mijn ding, ik ben echt een maker. Ik ben wel blij dat ik halverwege het heb op de eerste test heb opgepakt door veel vragen te stellen en tests te doen. Hierdoor heb ik heel veel informatie gekregen. Zonder de testen had ik nooit iets goeds gemaakt. Voor de eerste test had ik geen idee waar de problemen lagen, en nu ben ik daar achter gekomen en heb ik daar iets voor gemaakt.
